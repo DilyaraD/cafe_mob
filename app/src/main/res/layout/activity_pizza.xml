@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pizza">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/image__289_"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView589"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:onClick="perehod_na_menu"
+        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="МЕНЮ"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6789"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="perehod_na_menu"
+        app:srcCompat="@drawable/icons8__50" />
+</RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="9dp">
+
+            <Button
+                android:id="@+id/textViewu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_starter"
+                android:text="Стартеры"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuu"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Пицца"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuu"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_dinner"
+                android:text="Ужин"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_drinks"
+                android:text="Напитки"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_desert"
+                android:text="Десерты"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp">
+            <TextView
+                android:id="@+id/textViewuuuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="- - - - "
+                android:layout_marginLeft="110dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="26dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:text="Маргарита.............................500гр    2456" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, базилик"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Пепперони.............................500гр    3456" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, пепперони \n(колбаса из говядины), оливки"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Гавайская................................500гр    246" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, ветчина, ананас"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_177"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Карбонара..............................500гр    560" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, бекон, яйцо, сыр пармезан"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Капричоза...............................500гр    456" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, ветчина, шампиньоны, артишоки, оливки"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_4"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Кваттро формаги...................500гр    256" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, горгонзола, пармезан, эменталь"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Мексиканская.........................500гр    456" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, фасоль, кукуруза,\n острый перец, томаты, говядина"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Маринара................................500гр    234" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, мидии, кальмар, креветки, каперсы"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_6"
+                android:scaleType="fitXY"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Вегетарианская......................500гр    560" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, различные овощи (помидоры, перец, грибы, лук), оливки"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Мясная.....................................500гр    456" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, различные виды мяса (ветчина, пепперони, колбаски)"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_8"
+                android:scaleType="fitXY"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Берлускони.............................500гр    360" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="сливочный соус, моцарелла, горгонзола, пармезан, груша, орехи"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Карри........................................500гр    450" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, курица, карри, лук, ананас, кешью"
+                android:textSize="14sp"/>
+
+
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_9"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Блэк ангус...............................500гр    460" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, говядина, грибы,\n лук, пармезан"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:text="Филе миньон...........................500гр    260" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="томатный соус, моцарелла, филе миньон,\n грибы, лук, перец"
+                android:textSize="14sp"/>
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="26dp"
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_10"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="perehod_na_menu"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/component_6" />
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".desertigl">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image__289_"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="25dp" />
+            <ImageView
+                android:id="@+id/imageView589"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/logo"
+                android:onClick="perehod_na_menu"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="МЕНЮ"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView6789"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="perehod_na_menu"
+                app:srcCompat="@drawable/icons8__50"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="9dp">
+
+            <Button
+                android:id="@+id/textViewu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_starter"
+                android:text="Стартеры"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuu"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Пицца"
+                android:onClick="perehod_na_pizza"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuu"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_dinner"
+                android:text="Ужин"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="perehod_na_drinks"
+                android:text="Напитки"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/textViewuuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:text="Десерты"
+                android:textColor="@color/black"
+                android:textSize="9sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp">
+            <TextView
+                android:id="@+id/textViewuuuuuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="- - - - "
+                android:layout_marginLeft="350dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Торты" />
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Тирамису.................................200мл  250" />
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Каноли ....................................200мл  250" />
+                <TextView
+                    android:id="@+id/textView5555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Чизкейк с малиной ...............200мл  250" />
+                <TextView
+                    android:id="@+id/textView55555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Торт Кассата...........................200мл  250" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageView22201"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/image_231"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Заварные изделия" />
+
+                <TextView
+                    android:id="@+id/textView5666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Круассаны ..................................200г  300" />
+                <TextView
+                    android:id="@+id/textView56666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Сфолиателла с кремом ............200г  300" />
+                <TextView
+                    android:id="@+id/textView566666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Пирожное Скалли......................200г  300" />
+                <TextView
+                    android:id="@+id/textView566666666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Пирог с рикоттой и вишней ....200г  300" />
+                <TextView
+                    android:id="@+id/textView56666666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Пирог с яблоком .......................200г  300" />
+
+                <ImageView
+                    android:id="@+id/imageView230901"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/image_232"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:id="@+id/textView1399"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Другое" />
+                <TextView
+                    android:id="@+id/textView12399"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Канноли с  шоколадом ............200г  350" />
+                <TextView
+                    android:id="@+id/textView21399"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Сфера из белого шоколада .....200г  350" />
+                <TextView
+                    android:id="@+id/textView13299"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Тарталетка с кремом ................200г  350" />
+                <TextView
+                    android:id="@+id/textView13929"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Мини-круассаны с кремом......200г  350" />
+                <TextView
+                    android:id="@+id/textView13992"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:text="Шоколадный фондан ...............200г  300" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/component_6"
+                    android:scaleType="fitXY"
+                    android:layout_marginTop="20dp"
+                    android:onClick="perehod_na_menu"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

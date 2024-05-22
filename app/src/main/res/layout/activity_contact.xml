@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;Button&#xA;    android:id=&quot;@+id/button&quot;&#xA;    android:layout_width=&quot;300dp&quot;&#xA;    android:layout_height=&quot;wrap_content&quot;&#xA;    android:text=&quot;Посмотреть на картах&quot;&#xA;    android:background=&quot;@drawable/button_border_black&quot; &lt;!-- Используйте вашу drawable -->&#xA;    android:textColor=&quot;@android:color/black&quot; />&#xA;" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_con1"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView589"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:onClick="perehod_na_menu"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="КОНТАКТЫ"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView6789"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="perehod_na_menu"
+                app:srcCompat="@drawable/icons8__50"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:id="@+id/textView31"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="С нами можно связаться по электронной
+ почте "/>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@trattoria.com"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#9CAA00"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="или позвоните по телефону " />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+86 852 346 000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:textColor="#9CAA00"/>
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        app:srcCompat="@drawable/image_con2" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:textColor="@color/black"
+        android:text="Мы находимся в Казани,\nна улице Большая Красная, 55." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Посмотреть на картах"
+        android:backgroundTint="#d4d0d6"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+    android:textColor="@android:color/black" />
+
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_con3" />
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/component_6"
+        android:scaleType="fitXY"
+        android:onClick="perehod_na_menu"
+        />
+
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

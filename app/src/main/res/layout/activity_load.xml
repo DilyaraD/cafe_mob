@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".load">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/image__2_"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:onClick="perehod_na_menu"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="10dp"
+        android:text="О НАС"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="perehod_na_menu"
+        app:srcCompat="@drawable/icons8__50" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView4"> <!-- Здесь задаем расположение ScrollView ниже шапки -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Наша история"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Трое друзей объединились, чтоб создать уютное место для любителей итальянской кухни, и решили открыть собственный ресторан, где каждый гость мог бы насладиться аутентичными итальянскими блюдами и атмосферой."
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+
+                       <ImageView
+                           android:id="@+id/imageView8"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:srcCompat="@drawable/image__2_"
+                           android:layout_marginTop="10dp"/>
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:layout_marginTop="10dp">
+                           <ImageView
+                               android:id="@+id/imageView9"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               app:srcCompat="@drawable/tomato"
+                               android:layout_marginLeft="30dp"/>
+                           <ImageView
+                               android:id="@+id/imageView10"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               app:srcCompat="@drawable/tomato"
+                               android:layout_marginRight="80dp"
+                               android:layout_marginLeft="80dp"/>
+                           <ImageView
+                               android:id="@+id/imageView11"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               app:srcCompat="@drawable/tomato"
+                               android:layout_marginRight="30dp"/>
+                       </LinearLayout>
+
+                   <TextView
+                       android:id="@+id/textView2"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Менеджер"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"
+                       android:layout_marginTop="20dp"/>
+                   <TextView
+                       android:id="@+id/textView33"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Антипова Екатерина"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textColor="@color/black"/>
+
+                   <ImageView
+                       android:id="@+id/imageView7"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image__32_" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Шеф-повар"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"
+                       android:layout_marginTop="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Назмеева Ангелина"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textColor="@color/black"/>
+
+                   <ImageView
+                       android:id="@+id/imageView12"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image__3_" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Администратор"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"
+                       android:layout_marginTop="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Даутова Диляра"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textColor="@color/black"/>
+
+                   <ImageView
+                       android:id="@+id/imageView13"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image_23" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Криптоинвестор"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"
+                       android:layout_marginTop="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Ахунова Диляфруз"
+                       android:gravity="center"
+                       android:textSize="25sp"
+                       android:textColor="@color/black"/>
+                   <ImageView
+                       android:id="@+id/imageView17"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image__002_" />
+
+
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="50dp">
+                       <ImageView
+                           android:id="@+id/imageView15"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:srcCompat="@drawable/image__200_"
+                           android:scaleType="fitXY"/>
+
+                   <ImageView
+                       android:id="@+id/imageView14"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/rectangle_18"
+                       android:scaleType="fitXY"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginTop="25sp"
+                           android:layout_centerHorizontal="true"
+                           android:textColor="@color/white"
+                           android:text="Sembra delizioso"
+                           android:textStyle="bold"
+                           android:textSize="25dp"/>
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:layout_centerHorizontal="true"
+                           android:gravity="center"
+                           android:textColor="@color/white"
+                           android:textSize="17sp"
+                           android:text="La cucina italiana è un viaggio per i sensi, che ti trasporta direttamente in Italia."/>
+
+
+                   </RelativeLayout>
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal"
+                       android:layout_marginTop="50dp">
+                       <ImageView
+                           android:id="@+id/imageView99"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:srcCompat="@drawable/tomato"
+                           android:layout_marginLeft="30dp"/>
+                       <ImageView
+                           android:id="@+id/imageView100"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:srcCompat="@drawable/tomato"
+                           android:layout_marginRight="80dp"
+                           android:layout_marginLeft="80dp"/>
+                       <ImageView
+                           android:id="@+id/imageView111"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           app:srcCompat="@drawable/tomato"
+                           android:layout_marginRight="30dp"/>
+                   </LinearLayout>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Процесс готовки"
+                       android:gravity="center"
+                       android:textSize="35dp"
+                       android:layout_marginTop="30dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="01.Нарезка"
+                       android:gravity="center"
+                       android:textSize="35dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:id="@+id/textView55"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Процесс нарезки - это настоящее искусство, которое придает блюдам не только эстетическую привлекательность, но и усиливает их вкусовые качества. Нарезка продуктов является важным этапом приготовления блюд, где опыт и мастерство повара сливаются воедино."
+
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="10dp"
+                       android:textSize="22dp"
+                       android:textColor="@color/black"/>
+
+                   <ImageView
+                       android:id="@+id/imageView18"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image__22222_"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_marginTop="20dp"
+                       android:layout_marginBottom="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="02.Маринование"
+                       android:gravity="center"
+                       android:textSize="35dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:id="@+id/textView525"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Маринование - процесс консервирования пищевых продуктов, при котором они помещаются в раствор соли или уксуса для придания им особого вкуса."
+
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="10dp"
+                       android:textSize="22dp"
+                       android:textColor="@color/black"/>
+
+
+                   <ImageView
+                       android:id="@+id/imageView19"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/image__33333_"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_marginTop="20dp"
+                       android:layout_marginBottom="20dp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="03.Готовка"
+                       android:gravity="center"
+                       android:textSize="35dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:id="@+id/textView5225"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Повары проверяют свежесть и качество продуктов, необходимых для приготовления блюд. Ингредиенты могут быть нарезаны, очищены, маринованы или приготовлены по необходимости."
+
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="10dp"
+                       android:textSize="22dp"
+                       android:textColor="@color/black"/>
+
+                   <ImageView
+                       android:id="@+id/imageView16"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:srcCompat="@drawable/meat"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="30dp"
+                       android:layout_marginRight="30dp"
+                       android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:onClick="perehod_na_menu"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/component_6" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

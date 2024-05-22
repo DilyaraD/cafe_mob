@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".populardishes">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;Button&#xA;    android:id=&quot;@+id/button&quot;&#xA;    android:layout_width=&quot;300dp&quot;&#xA;    android:layout_height=&quot;wrap_content&quot;&#xA;    android:text=&quot;Посмотреть на картах&quot;&#xA;    android:background=&quot;@drawable/button_border_black&quot; &lt;!-- Используйте вашу drawable -->&#xA;    android:textColor=&quot;@android:color/black&quot; />&#xA;" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageView219865"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mage1"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView589"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:onClick="perehod_na_menu"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="ПОПУЛЯРНЫЕ БЛЮДА"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6789"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="perehod_na_menu"
+                app:srcCompat="@drawable/icons8__50" />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Салаты"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textSize="14sp"
+                    android:text="Свежие и вкусные салаты, приготовленные из отборных ингредиентов." />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="890₽" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Капрезе"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"/>
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Сочные помидоры, моццарелла и базилик, политые оливковым маслом, солью и перцем."
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="560₽" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Салат с горгонзолой и грушей"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Горгонзола, груша, уникальное сочетание."
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="980₽"  />
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Руккола с пармезаном и грецкими орехами"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"  />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Руккола, пармезан, грецкие орехи, оливковое масло и лимонный сок."
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/mage2"
+                    android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:id="@+id/textView387"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Основное"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textView3709"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textSize="14sp"
+                    android:text="Насыщенное ассортиментом блюд с острыми и пикантными вкусами, чтобы разогреть ваш аппетит." />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="1225₽" />
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Стейк на розмариновом масле"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Говядина, розмарин, оливковое масло, чеснок"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="780₽" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Паста карбонара"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Спагетти, гуанчиале, яйца, сыр пармезан, перец"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="980₽" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Лазанья"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Листы теста пасты, соус болоньезе, бешамельный соус, сыр."
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="26dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/mage3" />
+                <TextView
+                    android:id="@+id/textView3897"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Напитки"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textView370009"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:textSize="14sp"
+                    android:text="Широкий выбор освежающих и вкусных напитков для любого вкуса." />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="360₽" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Беллини"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Просекко, персиковый сок"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="360₽" />
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тоскана"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Грейпфрутовый сок, апельсиновый сок, лимонный сок, сироп гренадин, просекко"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="360₽" />
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginTop="-17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"
+                    android:text="------------------------------" />
+
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Россини"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Просекко, клубничное пюре"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="26dp"/>
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mage4"
+                    android:scaleType="fitXY"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="26dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="perehod_na_menu"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/component_6" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
